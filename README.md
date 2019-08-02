@@ -62,7 +62,7 @@ import { Chart } from 'angular-highcharts';
   `
 })
 export class ChartComponent {
-  chart = new Chart({
+  chart = new Chart(<any>{
       chart: {
         type: 'line'
       },
